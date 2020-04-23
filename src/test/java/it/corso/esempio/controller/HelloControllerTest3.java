@@ -29,13 +29,6 @@ public class HelloControllerTest3 {
 		assertThat(actual).isEqualTo(expected);
 	}
 
-	@Test
-	public void testStatusOk3() {
-		HelloResponse actual = this.restTemplate.getForObject("/hello3/status3", HelloResponse.class);
-		HelloResponse expected = buildExpectedOkResponse();
-		assertThat(actual).isEqualTo(expected);
-	}
-
 	private HelloResponse buildExpectedOkResponse() {
 		HelloResponse res = new HelloResponse();
 		res.setStatus("OK");
