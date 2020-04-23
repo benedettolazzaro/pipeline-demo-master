@@ -14,7 +14,6 @@ public class HelloController2 {
 	public HelloResponse getStatus() {
 		HelloResponse res = new HelloResponse();
 		res.setStatus("OK");
-
 		return res;
 	}
 }
