@@ -92,7 +92,6 @@
 			<activation>
 				<activeByDefault>false</activeByDefault>
 			</activation>
-			<!--
 			<build>
 				<plugins>
 					<plugin>
@@ -110,7 +109,6 @@
 					</plugin>
 				</plugins>
 			</build>
-			-->
 		</profile>
 	</profiles>
 
