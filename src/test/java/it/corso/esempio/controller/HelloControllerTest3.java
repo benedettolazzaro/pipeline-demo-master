@@ -28,7 +28,7 @@ public class HelloControllerTest3 {
 		HelloResponse expected = buildExpectedOkResponse();
 		assertThat(actual).isEqualTo(expected);
 	}
- 
+
 	private HelloResponse buildExpectedOkResponse() {
 		HelloResponse res = new HelloResponse();
 		res.setStatus("OK");

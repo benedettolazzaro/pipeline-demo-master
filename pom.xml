@@ -77,7 +77,7 @@
 			</plugin>
 		</plugins>
 	</build>
-<!--
+
 	<profiles>
 		<profile>
 			<id>sonar</id>
@@ -85,8 +85,8 @@
 				<sonar.sources>.</sonar.sources>
 				<sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
 				<sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions>
-				<sonar.projectKey>AndreaCuiuli_pipeline-demo</sonar.projectKey>
-				<sonar.organization>andreacuiuli</sonar.organization>
+				<sonar.projectKey>pipeline-demo-master</sonar.projectKey>
+				<sonar.organization>benedettolazzaro</sonar.organization>
 				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 			</properties>
 			<activation>
@@ -111,5 +111,5 @@
 			</build>
 		</profile>
 	</profiles>
--->
+
 </project>
