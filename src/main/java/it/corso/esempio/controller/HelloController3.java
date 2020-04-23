@@ -23,11 +23,4 @@ public class HelloController3 {
 		res.setStatus("OK");
 		return res;
 	}
-	
-	@GetMapping(value = "/status3", produces = MediaType.APPLICATION_JSON_VALUE)
-	public HelloResponse getStatus3() {
-		HelloResponse res = new HelloResponse();
-		res.setStatus("OK");
-		return res;
-	}
 }
