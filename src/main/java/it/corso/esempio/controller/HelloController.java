@@ -15,7 +15,15 @@ public class HelloController {
 	public HelloResponse getStatus() {
 		HelloResponse res = new HelloResponse();
 		res.setStatus("OK");
-		
+
+		return res;
+	}
+
+	@RequestMapping(value="/greating", method=RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE )
+	public HelloResponse getGreating() {
+		HelloResponse res = new HelloResponse();
+		res.setStatus("Hello World");
+
 		return res;
 	}
 	
