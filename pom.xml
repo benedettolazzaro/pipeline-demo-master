@@ -11,7 +11,7 @@
     </parent>
     <groupId>it.corso.esempio</groupId>
     <artifactId>pipeline-demo-app</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.3-SNAPSHOT</version>
     <name>pipeline-demo-app</name>
 
     <distributionManagement>
