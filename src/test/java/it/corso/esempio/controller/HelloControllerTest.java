@@ -35,7 +35,7 @@ public class HelloControllerTest {
 		res.setStatus("OK");
 		return res;
 	}
-
+ 
 	private HelloResponse buildExpectedOkResponseGreating() {
 		HelloResponse res = new HelloResponse();
 		res.setStatus("Hello World");
