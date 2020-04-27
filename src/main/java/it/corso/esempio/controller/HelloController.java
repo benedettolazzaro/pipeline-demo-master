@@ -18,7 +18,7 @@ public class HelloController {
 
 		return res;
 	}
-
+ 
 	@RequestMapping(value="/greating", method=RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE )
 	public HelloResponse getGreating() {
 		HelloResponse res = new HelloResponse();
