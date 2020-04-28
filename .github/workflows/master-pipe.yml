@@ -72,7 +72,7 @@ jobs:
       - name: Build Docker image
         run: docker build -t benedettolazzaro/pipeline-demo:latest -t benedettolazzaro/pipeline-demo:${GITHUB_SHA::8} .
       - name: Publish Docker image
-        run: docker push benedettolazzaro/pipeline-demo:latest
+        run: docker push benedettolazzaro/pipeline-demo
 
   heroku:
     name: Deploy to Heroku app
