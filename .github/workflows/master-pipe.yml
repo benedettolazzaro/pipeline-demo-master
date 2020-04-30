@@ -70,9 +70,9 @@ jobs:
       - name: Login to Docker Hub
         run: docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASS }}
       - name: Build Docker image
-        run: docker build -t $REPO:latest -t $REPO:${GITHUB_SHA::8} .
+        run: docker build -t benedettolazzaro/pipeline-demo:latest -t benedettolazzaro/pipeline-demo:${GITHUB_SHA::8} .
       - name: Publish Docker image
-        run: docker push $REPO
+        run: docker push benedettolazzaro/pipeline-demo
 
   heroku:
     name: Deploy to Heroku app
