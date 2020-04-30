@@ -90,7 +90,7 @@
             <id>sonar</id>
             <properties>
                 <sonar.sources>.</sonar.sources>
-                <sonar.inclusions>src/main/java/**,src/main/resources/**,src/test/**</sonar.inclusions>
+                <sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
                 <sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions>
                 <sonar.projectKey>benedettolazzaro_pipeline-demo-master</sonar.projectKey>
                 <sonar.organization>benedettolazzaro</sonar.organization>
@@ -99,7 +99,6 @@
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>
-            <!--
             <build>
                 <plugins>
                     <plugin>
@@ -117,7 +116,6 @@
                     </plugin>
                 </plugins>
             </build>
-            -->
         </profile>
     </profiles>
 
