@@ -24,8 +24,7 @@ public class HelloControllerTest2 {
 	}
 
 	private HelloResponse buildExpectedOkResponse() {
-		HelloResponse res = new HelloResponse(
-		);
+		HelloResponse res = new HelloResponse();
 		res.setStatus("OK");
 		return res;
 	}
